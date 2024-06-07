@@ -32,15 +32,15 @@ export default function HomePage() {
       <div className="flex flex-col pt-20">
         <div>
           <h1 className="text-2xl text-purple-800">
-            Chat <br />Messaging
+            Super <br/>Chatt
           </h1>
-          <p className="pt-5">Curabitur vel sapien a ipsum rutrum laoreet id id magna. Mauris eu dictum urna. Vestibulum et massa ipsum. Pellentesque sodales tellus vel elementum vulputate. Praesent vel diam augue. Praesent cursus sem id arcu porta vulputate. Nulla cursus enim quis aliquam gravida.</p>
+          <p className="pt-5">Yes, you read it right! Super chatt with two Ts is the new go to chat app in your area. Experience a new way of chatting now. What are you waiting for, get started!</p>
         </div>
-        <div>
+        <div className="pt-20 ">
           <Lottie 
             options={defaultOptions}
-              height={300}
-              width={300}
+            height={300}
+            width={300}
           />
         </div>
       </div>
