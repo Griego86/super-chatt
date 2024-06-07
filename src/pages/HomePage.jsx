@@ -1,5 +1,6 @@
 import Lottie from "react-lottie"
 import animationData from "../lotties/chat-animation.json"
+import { NavLink } from "react-router-dom"
 
 export default function HomePage() {
   const defaultOptions = {
@@ -18,13 +19,13 @@ export default function HomePage() {
         <nav>
           <ul className="flex flex-row gap-2">
             <li>
-              <a href="">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="">About Us</a>
+              <NavLink to="/about">About Us</NavLink>
             </li>
             <li>
-              <a href="">Let's Chat!</a>
+              <NavLink to="/user/chatroom">Let's chat!</NavLink>
             </li>
           </ul>
         </nav>        
