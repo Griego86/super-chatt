@@ -1,4 +1,16 @@
+import Lottie from "react-lottie"
+import animationData from "../lotties/chat-animation.json"
+
 export default function HomePage() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  }
+
   return(
     <div className="px-10 pt-10">
       <div className="flex flex-row justify-between">
@@ -24,7 +36,13 @@ export default function HomePage() {
           </h1>
           <p className="pt-5">Curabitur vel sapien a ipsum rutrum laoreet id id magna. Mauris eu dictum urna. Vestibulum et massa ipsum. Pellentesque sodales tellus vel elementum vulputate. Praesent vel diam augue. Praesent cursus sem id arcu porta vulputate. Nulla cursus enim quis aliquam gravida.</p>
         </div>
-        <div>Some Animation</div>
+        <div>
+          <Lottie 
+            options={defaultOptions}
+              height={300}
+              width={300}
+          />
+        </div>
       </div>
     </div>
   )
