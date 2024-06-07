@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 
 export default function HomePage() {
   const defaultOptions = {
-    loop: true,
+    loop: false,
     autoplay: true,
     animationData: animationData,
     rendererSettings: {
