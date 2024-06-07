@@ -15,7 +15,7 @@ export default function HomePage() {
   return(
     <div className="px-10 pt-10">
       <div className="flex flex-row justify-between">
-        <div>My Logo</div>
+        <img className="w-12 h-12" src="../../public/cat-logo.png" alt="cat logo" />
         <nav>
           <ul className="flex flex-row gap-2">
             <li>
@@ -30,14 +30,14 @@ export default function HomePage() {
           </ul>
         </nav>        
       </div>
-      <div className="flex flex-col pt-20">
+      <div className="flex flex-col pt-12">
         <div>
           <h1 className="text-2xl text-purple-800">
             Super <br/>Chatt
           </h1>
-          <p className="pt-5">Yes, you read it right! Super chatt with two Ts is the new go to chat app in your area. Experience a new way of chatting now. What are you waiting for, get started!</p>
+          <p className="pt-10">Yes, you read it right! Super chatt with two Ts is the new go to chat app in your area. Experience a new way of chatting now. What are you waiting for, get started!</p>
         </div>
-        <div className="pt-20 ">
+        <div className="pt-16">
           <Lottie 
             options={defaultOptions}
             height={300}
