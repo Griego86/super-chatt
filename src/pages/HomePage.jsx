@@ -21,7 +21,7 @@ export default function HomePage() {
       <div className="flex flex-col pt-8">
         <div className="pb-8">
         <nav>
-          <ul className="flex flex-row justify-center gap-2">
+          <ul className="flex flex-row justify-center gap-5">
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
