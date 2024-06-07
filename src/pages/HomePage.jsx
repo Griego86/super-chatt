@@ -35,7 +35,7 @@ export default function HomePage() {
         </nav>    
         </div>
         <div>
-          <h1 className="text-2xl text-purple-800">
+          <h1 className="text-2xl text-purple-800 font-mono">
             Super <br/>Chatt
           </h1>
           <p className="pt-8">Yes, you read it right! Super chatt with two Ts is the new go to chat app in your area. Experience a new way of chatting now. What are you waiting for, get started!</p>
