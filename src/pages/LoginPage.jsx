@@ -30,10 +30,6 @@ export default function LoginPage() {
                 <label>Password</label>
                 <input type="password" name="password" id="password" placeholder="Password" required className="px-2 border rounded-lg border-slate-700 py-1" />
             </div>
-            <div className="flex flex-col">
-                <label>Email</label>
-                <input type="email" className="px-2 border rounded-lg border-slate-700 py-1" />
-            </div>
             <button className="rounded-xl my-5 py-2 px-2 bg-indigo-600 text-white" type="submit">Login</button>
         </form>
        </div>
