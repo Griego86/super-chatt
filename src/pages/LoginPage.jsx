@@ -32,6 +32,8 @@ export default function LoginPage() {
             </div>
             <button className="rounded-xl my-5 py-2 px-2 bg-indigo-600 text-white" type="submit">Login</button>
         </form>
+        {authLoading ? <h2>Loading ...</h2> : null}
+        <p>{message}</p>
        </div>
     )
 }
