@@ -15,7 +15,7 @@ const useAuthStore = create((set, get) => ({
     loginService: async (username, password) => {
         set({ authLoading: true });
         try {
-            const res = await axios.post(`${DOMAIN}/api/user/login`, { username, password });
+            const res = await axios.post(`${DOMAIN}/api/v1/user/login`, { username, password });
             if (res.data.result?.user && res.data.result?.token) {
                 setSession(res.data.result?.token);
                 set({ user: res.data.result?.user, authLoading: false });
